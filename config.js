@@ -3,6 +3,7 @@ window.MathJax = {
     tags: "ams",
     packages: {'[+]': ['physics']}
   },
+  loader: {load: ['[tex]/physics']},
   chtml: {
     mtextInheritFont: true
   }
