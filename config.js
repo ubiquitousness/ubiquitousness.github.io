@@ -2,9 +2,9 @@ window.MathJax = {
   tex: {
     tags: "ams",
     inlineMath: [['$', '$'], ['\(', '\)']],
-    packages: {'[+]': ['physics2']}
+    packages: {'[+]': ['physics']}
   },
-  loader: {load: ['[tex]/physics2']},
+  loader: {load: ['[tex]/physics']},
   chtml: {
     mtextInheritFont: true
   }
