@@ -1,7 +1,8 @@
 window.MathJax = {
   tex: {
     tags: "ams",
-    packages: {'[+]': ['physics']}
+    packages: {'[+]': ['physics']},
+    inlineMath: [['$', '$'], ['\\(', '\\)']]
   },
   loader: {load: ['[tex]/physics']},
   chtml: {
