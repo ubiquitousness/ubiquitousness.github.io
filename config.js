@@ -1,7 +1,7 @@
 window.MathJax = {
   tex: {
     tags: "ams",
-    inlineMath: ['$', '$'],
+    inlineMath: [['$', '$'], ['\(', '\)']],
     packages: {'[+]': ['physics2']}
   },
   loader: {load: ['[tex]/physics2']},
