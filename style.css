@@ -5,9 +5,11 @@
   }
 .body {
     width: 80%;
-    background-color: white;
+    background-color: rgb(230, 252, 255);
+    border: 8px solid black;
   }
 .side {
     width: 20%;
-    background-color: gray;
+    background-color: rgb(230, 252, 255);
+    border: 8px solid darkmagenta;
   }
