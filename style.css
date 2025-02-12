@@ -15,4 +15,5 @@
     height: auto;
     background-color: E8F1FE;
     border: 5px solid black;
+    overflow-y: scroll
   }
