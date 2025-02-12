@@ -8,7 +8,9 @@
     height: auto;
     background-color: E8F1FE;
     /*border: 8px solid black;*/
-    margin-left:10px;
+    margin-left: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
     overflow-y: scroll
   }
 .side {
@@ -16,5 +18,7 @@
     height: auto;
     background-color: E8F1FE;
 /*     border: 5px solid black; */
+    padding-left: 10px;
+    padding-right: 10px;
     overflow-y: scroll
   }
