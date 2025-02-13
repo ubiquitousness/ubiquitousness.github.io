@@ -27,6 +27,6 @@
   overflow-y: scroll
 }
 
-p.indent{
+p{
   text-indent: 1em;
 }
