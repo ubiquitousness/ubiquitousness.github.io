@@ -1,15 +1,18 @@
 .container{
   width: 100%;
-  flex: 1;
+  /* flex: 1; */
   display: flex;
+  margin: 0;
 }
 
 .main{
   width: 80%;
-  /* height: 100vh; */
+  height: 100vh;
   background-color: E8F1FE;
   /*border: 8px solid black;*/
   margin-left: 10px;
+  margin-top: 0;
+  margin-bottom: 0;
   padding-left: 10px;
   padding-right: 10px;
   border-radius: 20px;
@@ -17,9 +20,11 @@
 
 .side{
   width: 20%;
-  /* height: 100vh; */
+  height: 100vh;
   background-color: E8F1FE;
 /*     border: 5px solid black; */
+  margin-top: 0;
+  margin-bottom: 0;
   padding-left: 10px;
   padding-right: 10px;
   padding-top: 10px;
@@ -51,20 +56,29 @@
 }
 
 .scroll{
-  /* height: auto; */
+  height: auto;
   overflow-y: scroll;
 }
 
 body{
   height: 100vh;
+  margin: 0;
 }
 
 header{
-  height: 80px;
+  margin: 0;
+  padding: 0;
+  padding-left: 10px;
+  height: auto;
+  overflow: hidden;
+  background: #d0eaef;
 }
 
 footer{
-  height: 50px;
+  height: auto;
+  overflow: hidden;
+  background: #d0eaef;
+  margin: 0;
 }
 
 p{
