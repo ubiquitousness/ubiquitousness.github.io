@@ -12,7 +12,7 @@
   margin-left: 10px;
   padding-left: 10px;
   padding-right: 10px;
-  overflow-y: scroll
+  overflow-y: scroll;
   border-radius: 40px;
 }
 
@@ -25,7 +25,7 @@
   padding-right: 10px;
   padding-top: 10px;
   padding-bottom: 10px;
-  overflow-y: scroll
+  overflow-y: scroll;
   border-radius: 40px;
 }
 
