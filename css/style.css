@@ -35,14 +35,19 @@
   background: transparent;
 }
 
-::-webkit-scrollbar-thumb{
+/* ::-webkit-scrollbar-thumb{
   border-radius: 4px;
   background-color: rgba(0,0,0,0);
   transition: background-color 0.3s;
-}
+} */
 
-.scroll:hover::-webkit-scrollbar-thumb{
-  background-color: rgba(0, 0, 0, 0.3);  
+/* .scroll:hover::-webkit-scrollbar-thumb{
+  background-color: rgba(0, 0, 0, 0.1);  
+} */
+
+::-webkit-scrollbar-thumb{
+  border-radius: 4px;
+  background-color: rgba(0,0,0,0.1);
 }
 
 .scroll{
