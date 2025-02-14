@@ -32,21 +32,21 @@
 }
 
 ::-webkit-scrollbar-track{
-  display: none;
+  background: transparent;
 }
 
 ::-webkit-scrollbar-thumb{
   border-radius: 4px;
   background-color: rgba(0,0,0,0);
+  transition: background-color 0.3s;
 }
 
-*:hover::-webkit-scrollbar-thumb{
-  background-color: rgba(0,0,0,0.3);  
+.scroll:hover::-webkit-scrollbar-thumb{
+  background-color: rgba(0, 0, 0, 0.3);  
 }
 
 .scroll{
   overflow-y: scroll;
-
 }
 
 p{
