@@ -12,7 +12,7 @@
   margin-left: 10px;
   padding-left: 10px;
   padding-right: 10px;
-  border-radius: 40px;
+  border-radius: 20px;
 }
 
 .side{
@@ -46,6 +46,7 @@
 }
 
 .scroll{
+  height: 100%;
   overflow-y: scroll;
 }
 
