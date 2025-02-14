@@ -13,6 +13,7 @@
   padding-left: 10px;
   padding-right: 10px;
   overflow-y: scroll
+  border-radius: 40px;
 }
 
 .side{
@@ -25,6 +26,7 @@
   padding-top: 10px;
   padding-bottom: 10px;
   overflow-y: scroll
+  border-radius: 40px;
 }
 
 p{
