@@ -46,7 +46,7 @@
 }
 
 .scroll{
-  height: 100%;
+  height: auto;
   overflow-y: scroll;
 }
 
